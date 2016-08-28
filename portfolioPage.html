@@ -1,0 +1,161 @@
+<!DOCTYPE html>  <!-- Hidden in CodePen-->
+<html>  <!-- Hidden in CodePen-->
+<head>  
+<meta charset="UTF-8"> <!-- hidden in CodePen -->
+<!--
+<link href='extern/bootstrap-3.3.7-dist/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+-->
+<link href='extern/font-awesome-4.6.3/css/font-awesome.min.css' rel='stylesheet' type="text/css">
+
+<link rel="stylesheet" href="extern/mdl/icon.css">
+<link rel="stylesheet" href="extern/mdl/material.indigo-pink.min.css">
+<script defer src="extern/mdl/material.min.js"></script>
+<!-- 
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet' type="text/css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+-->
+
+<!-- more on media types: http://www.iana.org/assignments/media-types/media-types.xhtml -->
+<link href="portfolioPage.css" rel="stylesheet" type="text/css"> <!-- embedded with <style> tags in CodePen -->
+<link href="portfolioPage.js" rel="stylesheet" type="application/javascript"> <!-- embedded with <style> tags in CodePen -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body id="pageTop">
+
+<!-- Always shows a header, even in smaller screens. -->
+<div class="layerBackground mdl-layout mdl-js-layout mdl-layout--fixed-header">
+	
+	<header class="mdl-layout__header" id="header">
+		<div class="mdl-layout__header-row">
+			<!-- Title -->
+			<span class="mdl-layout__title mdl-layout--large-screen-only">Toms Astahovskis</span>
+			<!-- Add spacer, to align navigation to the right -->
+			<div class="mdl-layout-spacer"></div>
+			<!-- Navigation. We can hide it in small screens with: mdl-layout--large-screen-only -->
+			<nav class="mdl-navigation">
+				<div class=""><a class="mdl-navigation__link" href="#about">About</a></div>
+				<div class=""><a class="mdl-navigation__link" href="#portfolio">Portfolio</a></div>
+				<div class=""><a class="mdl-navigation__link" href="#contact">Contact</a></div>
+			</nav>
+		</div>
+	</header>
+<!--
+	<div class="mdl-layout__drawer"	>
+			<span class="mdl-layout__title">Toms Astahovskis</span>
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="#about">About</a>
+				<a class="mdl-navigation__link" href="#portfolio">Portfolio</a>
+				<a class="mdl-navigation__link" href="#contact">Contact</a>
+			</nav>
+	</div>
+-->	
+
+	<main class="mdl-layout__content">
+		<div class="aboutDiv" id="about">
+			<h3 class="myColor">About</h3>
+			<div class=""><p class="myColor">Resourceful M.Sc.Eng graduate in Electronics Engineering with passion for programming: from low level hardware interfacing and embedded devices to high level OOP and <strong>web development</strong>.</p></div>
+		</div>
+		<div class="portfolioDiv" id="portfolio">
+			<h3 class="myColor">Portfolio</h3>
+			<div class="mdl-grid">
+				<!--<p class="myColor"> Here you will be able to see my portfolio. </p>-->
+				<div class="webImgDiv mdl-cell mdl-js-button mdl-button--raised">
+					<a href="http://codepen.io/astmens/pen/ZOgLQa" target="_blank">
+						<div class="webImgInDiv">
+						<img class="webImg" src="images/portfolioPagePreview.bmp" alt="Portfolio webpage"></img> <!-- https://www.dropbox.com/s/i4005e40yy11gts/portfolioPagePreview.bmp?dl=1 -->
+						</div>
+					</a>
+				</div>
+				<div class="webImgDiv mdl-cell mdl-js-button mdl-button--raised">
+					<a href="http://codepen.io/astmens/pen/XKOVwY" target="_blank">
+						<div class="webImgInDiv">
+						<img class="webImg" src="images/tributeToTesla.png" alt="Tribute to tesla webpage"></img>
+						</div> 
+						<!-- https://www.dropbox.com/s/c37y9jyc8gvfnn2/tributeToTesla.png?dl=1 -->
+					</a>
+				</div>
+				<div class="webImgDiv commingSoon mdl-cell mdl-js-button mdl-button--raised">
+					<a href="" target="_blank">
+						<div class="webImgInDiv">
+						<img class="webImg" src="images/CommingSoon.png" alt="Comming soon..."></img>
+						</div> 
+						<!-- https://www.dropbox.com/s/sx994moq8tun9wh/CommingSoon.png?dl=1 -->
+					</a>
+				</div>
+				<div class="webImgDiv mdl-cell mdl-js-button mdl-button--raised">
+					<a href="" target="_blank">
+						<img class="webImg" src="images/CommingSoon.png"  alt="Comming soon..."></img>
+					</a>
+				</div>
+				<div class="webImgDiv mdl-cell mdl-js-button mdl-button--raised">
+					<a href="" target="_blank">
+						<img class="webImg" src="images/CommingSoon.png"  alt="Comming soon..."></img>
+					</a>
+				</div>
+				<div class="webImgDiv mdl-cell mdl-js-button mdl-button--raised">
+					<a href="" target="_blank">
+					<div class="webImgInDiv">
+						<img class="webImg" src="images/CommingSoon.png"  alt="Comming soon..."></img>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="contactDiv" id="contact">
+			<h4 class="myColor">Contact</h4>
+			<div class="socLinkDiv">
+			<a class="socLink mdl-button mdl-js-button mdl-button--raised" href="https://github.com/astmens" target="_blank">
+				<i class="fa fa-github socIcon myColor"></i>
+			</a> <!-- https://github.com/astmens -->
+			<a class="socLink mdl-button mdl-js-button mdl-button--raised" href="https://lv.linkedin.com/in/toms-astahovskis-290a0381" target="_blank">
+				<i class="fa fa-linkedin socIcon myColor"></i>
+			</a> <!-- https://lv.linkedin.com/in/toms-astahovskis-290a0381 -->
+			<a class="socLink mdl-button mdl-js-button mdl-button--raised" href="https://www.freecodecamp.com/astmens" target="_blank">
+				<img class="fa " src="https://s3.amazonaws.com/freecodecamp/favicons/favicon-32x32.png"></img>
+			</a> <!-- https://www.freecodecamp.com/astmens -->
+			</div>
+
+		</div>
+		
+		<footer class="mdl-mini-footer">
+		<div class="quoteDiv">
+		<div class="quote myColor mdl-logo">" Code. Duty. Honor. "</div>
+		</div>
+		</footer>
+		
+		
+	</main>
+
+		<div class="backToTopDiv">
+			<a class="backToTopLink" href="#about">
+				<!--<div class="backToTopInDiv">
+				<i class="fa fa-chevron-up backToTopIcon myColor" aria-hidden="true"></i>
+				</div> -->
+				<i class="fa fa-chevron-up backToTopIcon myColor" aria-hidden="true"></i>
+				<!--
+				<i class="material-icons backToTopIcon myColor">&#xE316;</i>
+				 <i class="fa fa-chevron-up backToTopIcon myColor" aria-hidden="true"></i>
+				-->
+			</a>
+
+		</div>
+</div>
+
+
+
+</body>
+
+
+</html> <!-- Hidden in CodePen-->
+
+<!-- 
+FF:
+Chrome: title only shown abow 1024px;
+IE: nav-bar not fixed (scrolles away), title allways shown -->

@@ -1,0 +1,108 @@
+
+/*HTML5 defines eight new semantic HTML elements. All these are block-level elements.
+
+To secure correct behavior in older browsers, you can set the CSS display property for these elements to block: */
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+
+.aboutDiv, .portfolioDiv, .contactDiv{
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+
+
+.layerBackground{
+	/*background: url("images/bull.jpg") no-repeat cover center center fixed; */
+	background-image: url("images/bull1.jpg");
+	/* background-image: url("https://www.dropbox.com/s/7givnxnfn3faj9j/bull1.jpg?dl=1"); */
+	background-repeat: no-repeat;
+	background-size: cover; /* contain and cover */
+	background-position: center center;
+	background-color: purple;
+	
+	min-width: 360px;
+	/*max-width: 1080px;*/
+	text-align: center;
+}
+
+.myColor{
+	color:white;
+}
+
+.socLink{
+	max-width: 60px;
+	max-height: 40px;
+	padding: 6px 6px;
+
+}
+
+.socIcon{
+	font-size: 32px;
+}
+.backToTopIcon{
+	font-size: 24px;
+}
+
+
+.mdl-navigation__link:hover, .mdl-layout__drawer-button:hover, .mdl-button:hover, .webImgDiv:hover, .backToTopLink:hover{
+	background-color: rgb(180,160,200);
+	background-color: rgba(180,160,200,0.99);
+}
+
+.webImgDiv, .webImg, .socLink, .backToTopLink, .backToTopDiv, .mdl-navigation__link {
+	/*background-color: rgba(179,212,252,0.6); */
+	text-align: center;
+	border-radius: 1em 1em 1em 1em;
+}
+
+.webImgDiv{
+	max-width: 320px;
+	max-height: 240px;
+}
+.webImg {
+	max-width: 100%;
+	height: auto;
+	/*border-radius: 1em 1em 1em 1em;*/
+}
+.webImgInDiv{
+	padding: 4px;
+}
+
+.mdl-mini-footer{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.backToTopDiv{
+	position: fixed;
+	z-index: 1;
+	bottom: 20px;
+	right: 20px;
+	/*background-color: rgba(179,212,252,0.6);*/
+}
+.backToTopLink{
+	padding: 16px;
+	/* carn replace .backToTopLink with backToTopInDiv...*/
+}
+
+/* overwrite default value*/
+.mdl-button--raised, .backToTopDiv{
+	background:rgba(179,212,252,.333);
+}
+/*
+.quoteDiv{
+	min-height: 100px;
+}
+*/
+/*
+.mdl-layout__content {
+  flex-shrink: 0;
+}
+*/
+
