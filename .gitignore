@@ -1,0 +1,26 @@
+# ignore images for Webpage:
+images/
+
+# ignore external libraries that can be downloaded:
+extern/
+# ignore files ending with ~ (temp files)
+*~
+
+*.zip
+
+# other rules:
+~$*
+
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
