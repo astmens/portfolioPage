@@ -22,7 +22,7 @@ header, section, footer, aside, nav, main, article, figure {
 	background-repeat: no-repeat;
 	background-size: cover; /* contain and cover */
 	background-position: center center;
-	background-color: purple;
+	background-color: gray;
 	
 	min-width: 360px;
 	/*max-width: 1080px;*/
@@ -37,10 +37,11 @@ header, section, footer, aside, nav, main, article, figure {
 	max-width: 60px;
 	max-height: 40px;
 	padding: 6px 6px;
+    font-size: 32px;
 
 }
 
-.socIcon{
+.socIcon.fa, .socIcon.fa-github, .socIcon{
 	font-size: 32px;
 }
 .backToTopIcon{
@@ -56,6 +57,7 @@ header, section, footer, aside, nav, main, article, figure {
 .webImgDiv, .webImg, .socLink, .backToTopLink, .backToTopDiv, .mdl-navigation__link {
 	/*background-color: rgba(179,212,252,0.6); */
 	text-align: center;
+    vertical-align: middle;
 	border-radius: 1em 1em 1em 1em;
 }
 
