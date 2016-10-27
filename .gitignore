@@ -1,8 +1,10 @@
 # ignore images for Webpage:
 images/
 
+
 # ignore external libraries that can be downloaded:
 extern/
+extern2/
 # ignore files ending with ~ (temp files)
 *~
 
